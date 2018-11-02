@@ -51,6 +51,9 @@ typedef NS_ENUM(NSInteger, XBZKeyBoardState) {
 //是否使用更多，默认显示
 @property (nonatomic, assign) BOOL showMore;
 
+//textViewPlaceHolder
+@property (nonatomic, copy) NSString *textViewPlaceHolder;
+
 //不准用~
 - (instancetype)init NS_UNAVAILABLE;
 //就是不准用~

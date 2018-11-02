@@ -510,6 +510,12 @@
     }];
 }
 
+- (void)setTextViewPlaceHolder:(NSString *)textViewPlaceHolder {
+    _textViewPlaceHolder = textViewPlaceHolder;
+    
+    self.textView.placeHolder = textViewPlaceHolder;
+}
+
 //MARK: - Getter
 
 - (UIView *)topBarView {

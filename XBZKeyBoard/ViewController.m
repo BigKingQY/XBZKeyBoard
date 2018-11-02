@@ -42,6 +42,9 @@
     
     self.keyBoardView = [[XBZChatKeyBoardView alloc] initWithNavigationBarTranslucent:NO];
     self.keyBoardView.delegate = self;
+    self.keyBoardView.showVoice = NO;
+    self.keyBoardView.showFace = NO;
+    self.keyBoardView.showMore = NO;
     [self.view addSubview:self.keyBoardView];
 }
 

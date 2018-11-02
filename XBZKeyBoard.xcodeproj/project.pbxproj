@@ -249,13 +249,13 @@
 		06357AC3218C2289002C1CF7 /* XBZChatKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
-				06357AC4218C2289002C1CF7 /* Plist */,
-				06357AC7218C2289002C1CF7 /* Lame */,
-				06357ACA218C2289002C1CF7 /* XBZChatKeyBoardView.m */,
-				06357ACB218C2289002C1CF7 /* Catgoriy */,
-				06357AD8218C2289002C1CF7 /* Manager */,
 				06357ADB218C2289002C1CF7 /* XBZKeyBoardDefine.h */,
 				06357ADC218C2289002C1CF7 /* XBZChatKeyBoardView.h */,
+				06357ACA218C2289002C1CF7 /* XBZChatKeyBoardView.m */,
+				06357AC4218C2289002C1CF7 /* Plist */,
+				06357AC7218C2289002C1CF7 /* Lame */,
+				06357ACB218C2289002C1CF7 /* Catgoriy */,
+				06357AD8218C2289002C1CF7 /* Manager */,
 				06357ADD218C2289002C1CF7 /* Model */,
 				06357AE2218C2289002C1CF7 /* View */,
 				06357AF8218C2289002C1CF7 /* Resource */,
@@ -303,8 +303,8 @@
 		06357AD8218C2289002C1CF7 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				06357AD9218C2289002C1CF7 /* XBZChatKeyBoardManager.m */,
 				06357ADA218C2289002C1CF7 /* XBZChatKeyBoardManager.h */,
+				06357AD9218C2289002C1CF7 /* XBZChatKeyBoardManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -345,8 +345,8 @@
 			isa = PBXGroup;
 			children = (
 				06357AE7218C2289002C1CF7 /* XBZVoiceAnimationView.h */,
-				06357AE8218C2289002C1CF7 /* XBZAudioRecorder.h */,
 				06357AE9218C2289002C1CF7 /* XBZVoiceAnimationView.m */,
+				06357AE8218C2289002C1CF7 /* XBZAudioRecorder.h */,
 				06357AEA218C2289002C1CF7 /* XBZAudioRecorder.m */,
 			);
 			path = Record;
