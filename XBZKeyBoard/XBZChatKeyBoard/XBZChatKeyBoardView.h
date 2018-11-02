@@ -56,7 +56,7 @@ typedef NS_ENUM(NSInteger, XBZKeyBoardState) {
 - (instancetype)init NS_UNAVAILABLE;
 //就是不准用~
 + (instancetype)new NS_UNAVAILABLE;
-
+//硬是不准用~
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 
 /**
