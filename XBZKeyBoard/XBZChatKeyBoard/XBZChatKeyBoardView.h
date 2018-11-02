@@ -42,8 +42,6 @@ typedef NS_ENUM(NSInteger, XBZKeyBoardState) {
 
 @property (nonatomic, weak) id<XBZChatKeyBoardViewDelegate> delegate;
 
-@property (nonatomic, weak) UITableView *tableView;
-
 //是否使用录音，默认显示
 @property (nonatomic, assign) BOOL showVoice;
 //是否使用表情，默认显示
