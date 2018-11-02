@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06357A86218C2206002C1CF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A85218C2206002C1CF7 /* AppDelegate.m */; };
+		06357A89218C2206002C1CF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A88218C2206002C1CF7 /* ViewController.m */; };
+		06357A8C218C2206002C1CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06357A8A218C2206002C1CF7 /* Main.storyboard */; };
+		06357A8E218C2208002C1CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06357A8D218C2208002C1CF7 /* Assets.xcassets */; };
+		06357A91218C2208002C1CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06357A8F218C2208002C1CF7 /* LaunchScreen.storyboard */; };
+		06357A94218C2208002C1CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A93218C2208002C1CF7 /* main.m */; };
+		06357A9E218C2208002C1CF7 /* XBZKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A9D218C2208002C1CF7 /* XBZKeyBoardTests.m */; };
+		06357AA9218C2208002C1CF7 /* XBZKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AA8218C2208002C1CF7 /* XBZKeyBoardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06357A9A218C2208002C1CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06357A79218C2206002C1CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06357A80218C2206002C1CF7;
+			remoteInfo = XBZKeyBoard;
+		};
+		06357AA5218C2208002C1CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06357A79218C2206002C1CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06357A80218C2206002C1CF7;
+			remoteInfo = XBZKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06357A81218C2206002C1CF7 /* XBZKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBZKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06357A84218C2206002C1CF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06357A85218C2206002C1CF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06357A87218C2206002C1CF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06357A88218C2206002C1CF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06357A8B218C2206002C1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06357A8D218C2208002C1CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06357A90218C2208002C1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06357A92218C2208002C1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06357A93218C2208002C1CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06357A99218C2208002C1CF7 /* XBZKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBZKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06357A9D218C2208002C1CF7 /* XBZKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBZKeyBoardTests.m; sourceTree = "<group>"; };
+		06357A9F218C2208002C1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06357AA4218C2208002C1CF7 /* XBZKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBZKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06357AA8218C2208002C1CF7 /* XBZKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBZKeyBoardUITests.m; sourceTree = "<group>"; };
+		06357AAA218C2208002C1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06357A7E218C2206002C1CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06357A96218C2208002C1CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06357AA1218C2208002C1CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06357A78218C2206002C1CF7 = {
+			isa = PBXGroup;
+			children = (
+				06357A83218C2206002C1CF7 /* XBZKeyBoard */,
+				06357A9C218C2208002C1CF7 /* XBZKeyBoardTests */,
+				06357AA7218C2208002C1CF7 /* XBZKeyBoardUITests */,
+				06357A82218C2206002C1CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06357A82218C2206002C1CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06357A81218C2206002C1CF7 /* XBZKeyBoard.app */,
+				06357A99218C2208002C1CF7 /* XBZKeyBoardTests.xctest */,
+				06357AA4218C2208002C1CF7 /* XBZKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06357A83218C2206002C1CF7 /* XBZKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				06357A84218C2206002C1CF7 /* AppDelegate.h */,
+				06357A85218C2206002C1CF7 /* AppDelegate.m */,
+				06357A87218C2206002C1CF7 /* ViewController.h */,
+				06357A88218C2206002C1CF7 /* ViewController.m */,
+				06357A8A218C2206002C1CF7 /* Main.storyboard */,
+				06357A8D218C2208002C1CF7 /* Assets.xcassets */,
+				06357A8F218C2208002C1CF7 /* LaunchScreen.storyboard */,
+				06357A92218C2208002C1CF7 /* Info.plist */,
+				06357A93218C2208002C1CF7 /* main.m */,
+			);
+			path = XBZKeyBoard;
+			sourceTree = "<group>";
+		};
+		06357A9C218C2208002C1CF7 /* XBZKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				06357A9D218C2208002C1CF7 /* XBZKeyBoardTests.m */,
+				06357A9F218C2208002C1CF7 /* Info.plist */,
+			);
+			path = XBZKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		06357AA7218C2208002C1CF7 /* XBZKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06357AA8218C2208002C1CF7 /* XBZKeyBoardUITests.m */,
+				06357AAA218C2208002C1CF7 /* Info.plist */,
+			);
+			path = XBZKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06357A80218C2206002C1CF7 /* XBZKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06357AAD218C2208002C1CF7 /* Build configuration list for PBXNativeTarget "XBZKeyBoard" */;
+			buildPhases = (
+				06357A7D218C2206002C1CF7 /* Sources */,
+				06357A7E218C2206002C1CF7 /* Frameworks */,
+				06357A7F218C2206002C1CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XBZKeyBoard;
+			productName = XBZKeyBoard;
+			productReference = 06357A81218C2206002C1CF7 /* XBZKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06357A98218C2208002C1CF7 /* XBZKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06357AB0218C2208002C1CF7 /* Build configuration list for PBXNativeTarget "XBZKeyBoardTests" */;
+			buildPhases = (
+				06357A95218C2208002C1CF7 /* Sources */,
+				06357A96218C2208002C1CF7 /* Frameworks */,
+				06357A97218C2208002C1CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06357A9B218C2208002C1CF7 /* PBXTargetDependency */,
+			);
+			name = XBZKeyBoardTests;
+			productName = XBZKeyBoardTests;
+			productReference = 06357A99218C2208002C1CF7 /* XBZKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06357AA3218C2208002C1CF7 /* XBZKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06357AB3218C2208002C1CF7 /* Build configuration list for PBXNativeTarget "XBZKeyBoardUITests" */;
+			buildPhases = (
+				06357AA0218C2208002C1CF7 /* Sources */,
+				06357AA1218C2208002C1CF7 /* Frameworks */,
+				06357AA2218C2208002C1CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06357AA6218C2208002C1CF7 /* PBXTargetDependency */,
+			);
+			name = XBZKeyBoardUITests;
+			productName = XBZKeyBoardUITests;
+			productReference = 06357AA4218C2208002C1CF7 /* XBZKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06357A79218C2206002C1CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BigKing;
+				TargetAttributes = {
+					06357A80218C2206002C1CF7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					06357A98218C2208002C1CF7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06357A80218C2206002C1CF7;
+					};
+					06357AA3218C2208002C1CF7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 06357A80218C2206002C1CF7;
+					};
+				};
+			};
+			buildConfigurationList = 06357A7C218C2206002C1CF7 /* Build configuration list for PBXProject "XBZKeyBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06357A78218C2206002C1CF7;
+			productRefGroup = 06357A82218C2206002C1CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06357A80218C2206002C1CF7 /* XBZKeyBoard */,
+				06357A98218C2208002C1CF7 /* XBZKeyBoardTests */,
+				06357AA3218C2208002C1CF7 /* XBZKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06357A7F218C2206002C1CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06357A91218C2208002C1CF7 /* LaunchScreen.storyboard in Resources */,
+				06357A8E218C2208002C1CF7 /* Assets.xcassets in Resources */,
+				06357A8C218C2206002C1CF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06357A97218C2208002C1CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06357AA2218C2208002C1CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06357A7D218C2206002C1CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06357A89218C2206002C1CF7 /* ViewController.m in Sources */,
+				06357A94218C2208002C1CF7 /* main.m in Sources */,
+				06357A86218C2206002C1CF7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06357A95218C2208002C1CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06357A9E218C2208002C1CF7 /* XBZKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06357AA0218C2208002C1CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06357AA9218C2208002C1CF7 /* XBZKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06357A9B218C2208002C1CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06357A80218C2206002C1CF7 /* XBZKeyBoard */;
+			targetProxy = 06357A9A218C2208002C1CF7 /* PBXContainerItemProxy */;
+		};
+		06357AA6218C2208002C1CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06357A80218C2206002C1CF7 /* XBZKeyBoard */;
+			targetProxy = 06357AA5218C2208002C1CF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06357A8A218C2206002C1CF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06357A8B218C2206002C1CF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06357A8F218C2208002C1CF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06357A90218C2208002C1CF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06357AAB218C2208002C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06357AAC218C2208002C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06357AAE218C2208002C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				INFOPLIST_FILE = XBZKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06357AAF218C2208002C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				INFOPLIST_FILE = XBZKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06357AB1218C2208002C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				INFOPLIST_FILE = XBZKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBZKeyBoard.app/XBZKeyBoard";
+			};
+			name = Debug;
+		};
+		06357AB2218C2208002C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				INFOPLIST_FILE = XBZKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBZKeyBoard.app/XBZKeyBoard";
+			};
+			name = Release;
+		};
+		06357AB4218C2208002C1CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				INFOPLIST_FILE = XBZKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBZKeyBoard;
+			};
+			name = Debug;
+		};
+		06357AB5218C2208002C1CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				INFOPLIST_FILE = XBZKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XBZKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06357A7C218C2206002C1CF7 /* Build configuration list for PBXProject "XBZKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06357AAB218C2208002C1CF7 /* Debug */,
+				06357AAC218C2208002C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06357AAD218C2208002C1CF7 /* Build configuration list for PBXNativeTarget "XBZKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06357AAE218C2208002C1CF7 /* Debug */,
+				06357AAF218C2208002C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06357AB0218C2208002C1CF7 /* Build configuration list for PBXNativeTarget "XBZKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06357AB1218C2208002C1CF7 /* Debug */,
+				06357AB2218C2208002C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06357AB3218C2208002C1CF7 /* Build configuration list for PBXNativeTarget "XBZKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06357AB4218C2208002C1CF7 /* Debug */,
+				06357AB5218C2208002C1CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06357A79218C2206002C1CF7 /* Project object */;
+}
