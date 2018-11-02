@@ -8,13 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		06357A86218C2206002C1CF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A85218C2206002C1CF7 /* AppDelegate.m */; };
-		06357A89218C2206002C1CF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A88218C2206002C1CF7 /* ViewController.m */; };
 		06357A8C218C2206002C1CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06357A8A218C2206002C1CF7 /* Main.storyboard */; };
 		06357A8E218C2208002C1CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06357A8D218C2208002C1CF7 /* Assets.xcassets */; };
 		06357A91218C2208002C1CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06357A8F218C2208002C1CF7 /* LaunchScreen.storyboard */; };
 		06357A94218C2208002C1CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A93218C2208002C1CF7 /* main.m */; };
 		06357A9E218C2208002C1CF7 /* XBZKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357A9D218C2208002C1CF7 /* XBZKeyBoardTests.m */; };
 		06357AA9218C2208002C1CF7 /* XBZKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AA8218C2208002C1CF7 /* XBZKeyBoardUITests.m */; };
+		06357ABE218C224F002C1CF7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AB7218C224E002C1CF7 /* RootViewController.m */; };
+		06357ABF218C224F002C1CF7 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AB8218C224E002C1CF7 /* TableViewController.m */; };
+		06357AC0218C224F002C1CF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357ABB218C224E002C1CF7 /* ViewController.m */; };
+		06357AFA218C2289002C1CF7 /* emotion_icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06357AC5218C2289002C1CF7 /* emotion_icons.plist */; };
+		06357AFB218C2289002C1CF7 /* chatEmojis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06357AC6218C2289002C1CF7 /* chatEmojis.plist */; };
+		06357AFC218C2289002C1CF7 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06357AC8218C2289002C1CF7 /* libmp3lame.a */; };
+		06357AFD218C2289002C1CF7 /* XBZChatKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357ACA218C2289002C1CF7 /* XBZChatKeyBoardView.m */; };
+		06357AFE218C2289002C1CF7 /* UIButton+XBZKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357ACC218C2289002C1CF7 /* UIButton+XBZKeyBoard.m */; };
+		06357AFF218C2289002C1CF7 /* UIColor+XBZKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357ACE218C2289002C1CF7 /* UIColor+XBZKeyBoard.m */; };
+		06357B00218C2289002C1CF7 /* UIImage+XBZKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357ACF218C2289002C1CF7 /* UIImage+XBZKeyBoard.m */; };
+		06357B01218C2289002C1CF7 /* UIView+XBZKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AD2218C2289002C1CF7 /* UIView+XBZKeyBoard.m */; };
+		06357B02218C2289002C1CF7 /* NSString+XBZKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AD6218C2289002C1CF7 /* NSString+XBZKeyBoard.m */; };
+		06357B03218C2289002C1CF7 /* UIScrollView+XBZKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AD7218C2289002C1CF7 /* UIScrollView+XBZKeyBoard.m */; };
+		06357B04218C2289002C1CF7 /* XBZChatKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AD9218C2289002C1CF7 /* XBZChatKeyBoardManager.m */; };
+		06357B05218C2289002C1CF7 /* XBZEmojiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357ADF218C2289002C1CF7 /* XBZEmojiModel.m */; };
+		06357B06218C2289002C1CF7 /* XBZChatMoreItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AE0218C2289002C1CF7 /* XBZChatMoreItem.m */; };
+		06357B07218C2289002C1CF7 /* XBZKeyBoardTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AE5218C2289002C1CF7 /* XBZKeyBoardTextView.m */; };
+		06357B08218C2289002C1CF7 /* XBZVoiceAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AE9218C2289002C1CF7 /* XBZVoiceAnimationView.m */; };
+		06357B09218C2289002C1CF7 /* XBZAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AEA218C2289002C1CF7 /* XBZAudioRecorder.m */; };
+		06357B0A218C2289002C1CF7 /* XBZChatEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AEC218C2289002C1CF7 /* XBZChatEmojiView.m */; };
+		06357B0B218C2289002C1CF7 /* XBZChatMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AF0218C2289002C1CF7 /* XBZChatMoreView.m */; };
+		06357B0C218C2289002C1CF7 /* XBZChatMoreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AF2218C2289002C1CF7 /* XBZChatMoreCollectionViewCell.m */; };
+		06357B0D218C2289002C1CF7 /* XBZEmojiFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AF6218C2289002C1CF7 /* XBZEmojiFlowLayout.m */; };
+		06357B0E218C2289002C1CF7 /* XBZEmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357AF7218C2289002C1CF7 /* XBZEmojiCollectionViewCell.m */; };
+		06357B0F218C2289002C1CF7 /* resource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06357AF9218C2289002C1CF7 /* resource.xcassets */; };
+		06357B2B218C2326002C1CF7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B12218C2326002C1CF7 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		06357B2C218C2326002C1CF7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B1B218C2326002C1CF7 /* ViewController+MASAdditions.m */; };
+		06357B2D218C2326002C1CF7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B1F218C2326002C1CF7 /* MASCompositeConstraint.m */; };
+		06357B2E218C2326002C1CF7 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B20218C2326002C1CF7 /* MASConstraintMaker.m */; };
+		06357B2F218C2326002C1CF7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B21218C2326002C1CF7 /* MASLayoutConstraint.m */; };
+		06357B30218C2326002C1CF7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B22218C2326002C1CF7 /* NSArray+MASAdditions.m */; };
+		06357B31218C2326002C1CF7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B23218C2326002C1CF7 /* View+MASAdditions.m */; };
+		06357B32218C2326002C1CF7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B26218C2326002C1CF7 /* MASConstraint.m */; };
+		06357B33218C2326002C1CF7 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B28218C2326002C1CF7 /* MASViewConstraint.m */; };
+		06357B34218C2326002C1CF7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 06357B29218C2326002C1CF7 /* MASViewAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +72,6 @@
 		06357A81218C2206002C1CF7 /* XBZKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBZKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06357A84218C2206002C1CF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06357A85218C2206002C1CF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		06357A87218C2206002C1CF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		06357A88218C2206002C1CF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		06357A8B218C2206002C1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06357A8D218C2208002C1CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06357A90218C2208002C1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +83,80 @@
 		06357AA4218C2208002C1CF7 /* XBZKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBZKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06357AA8218C2208002C1CF7 /* XBZKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBZKeyBoardUITests.m; sourceTree = "<group>"; };
 		06357AAA218C2208002C1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06357AB6218C224D002C1CF7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06357AB7218C224E002C1CF7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		06357AB8218C224E002C1CF7 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		06357AB9218C224E002C1CF7 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		06357ABA218C224E002C1CF7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		06357ABB218C224E002C1CF7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06357AC5218C2289002C1CF7 /* emotion_icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotion_icons.plist; sourceTree = "<group>"; };
+		06357AC6218C2289002C1CF7 /* chatEmojis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = chatEmojis.plist; sourceTree = "<group>"; };
+		06357AC8218C2289002C1CF7 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		06357AC9218C2289002C1CF7 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		06357ACA218C2289002C1CF7 /* XBZChatKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZChatKeyBoardView.m; sourceTree = "<group>"; };
+		06357ACC218C2289002C1CF7 /* UIButton+XBZKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XBZKeyBoard.m"; sourceTree = "<group>"; };
+		06357ACD218C2289002C1CF7 /* UIView+XBZKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XBZKeyBoard.h"; sourceTree = "<group>"; };
+		06357ACE218C2289002C1CF7 /* UIColor+XBZKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XBZKeyBoard.m"; sourceTree = "<group>"; };
+		06357ACF218C2289002C1CF7 /* UIImage+XBZKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XBZKeyBoard.m"; sourceTree = "<group>"; };
+		06357AD0218C2289002C1CF7 /* UIScrollView+XBZKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XBZKeyBoard.h"; sourceTree = "<group>"; };
+		06357AD1218C2289002C1CF7 /* NSString+XBZKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XBZKeyBoard.h"; sourceTree = "<group>"; };
+		06357AD2218C2289002C1CF7 /* UIView+XBZKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XBZKeyBoard.m"; sourceTree = "<group>"; };
+		06357AD3218C2289002C1CF7 /* UIButton+XBZKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XBZKeyBoard.h"; sourceTree = "<group>"; };
+		06357AD4218C2289002C1CF7 /* UIImage+XBZKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XBZKeyBoard.h"; sourceTree = "<group>"; };
+		06357AD5218C2289002C1CF7 /* UIColor+XBZKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XBZKeyBoard.h"; sourceTree = "<group>"; };
+		06357AD6218C2289002C1CF7 /* NSString+XBZKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XBZKeyBoard.m"; sourceTree = "<group>"; };
+		06357AD7218C2289002C1CF7 /* UIScrollView+XBZKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XBZKeyBoard.m"; sourceTree = "<group>"; };
+		06357AD9218C2289002C1CF7 /* XBZChatKeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZChatKeyBoardManager.m; sourceTree = "<group>"; };
+		06357ADA218C2289002C1CF7 /* XBZChatKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZChatKeyBoardManager.h; sourceTree = "<group>"; };
+		06357ADB218C2289002C1CF7 /* XBZKeyBoardDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZKeyBoardDefine.h; sourceTree = "<group>"; };
+		06357ADC218C2289002C1CF7 /* XBZChatKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZChatKeyBoardView.h; sourceTree = "<group>"; };
+		06357ADE218C2289002C1CF7 /* XBZChatMoreItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZChatMoreItem.h; sourceTree = "<group>"; };
+		06357ADF218C2289002C1CF7 /* XBZEmojiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZEmojiModel.m; sourceTree = "<group>"; };
+		06357AE0218C2289002C1CF7 /* XBZChatMoreItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZChatMoreItem.m; sourceTree = "<group>"; };
+		06357AE1218C2289002C1CF7 /* XBZEmojiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZEmojiModel.h; sourceTree = "<group>"; };
+		06357AE4218C2289002C1CF7 /* XBZKeyBoardTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZKeyBoardTextView.h; sourceTree = "<group>"; };
+		06357AE5218C2289002C1CF7 /* XBZKeyBoardTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZKeyBoardTextView.m; sourceTree = "<group>"; };
+		06357AE7218C2289002C1CF7 /* XBZVoiceAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZVoiceAnimationView.h; sourceTree = "<group>"; };
+		06357AE8218C2289002C1CF7 /* XBZAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZAudioRecorder.h; sourceTree = "<group>"; };
+		06357AE9218C2289002C1CF7 /* XBZVoiceAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZVoiceAnimationView.m; sourceTree = "<group>"; };
+		06357AEA218C2289002C1CF7 /* XBZAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZAudioRecorder.m; sourceTree = "<group>"; };
+		06357AEC218C2289002C1CF7 /* XBZChatEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZChatEmojiView.m; sourceTree = "<group>"; };
+		06357AED218C2289002C1CF7 /* XBZChatEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZChatEmojiView.h; sourceTree = "<group>"; };
+		06357AEF218C2289002C1CF7 /* XBZChatMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZChatMoreView.h; sourceTree = "<group>"; };
+		06357AF0218C2289002C1CF7 /* XBZChatMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZChatMoreView.m; sourceTree = "<group>"; };
+		06357AF2218C2289002C1CF7 /* XBZChatMoreCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZChatMoreCollectionViewCell.m; sourceTree = "<group>"; };
+		06357AF3218C2289002C1CF7 /* XBZEmojiFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZEmojiFlowLayout.h; sourceTree = "<group>"; };
+		06357AF4218C2289002C1CF7 /* XBZEmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZEmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		06357AF5218C2289002C1CF7 /* XBZChatMoreCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBZChatMoreCollectionViewCell.h; sourceTree = "<group>"; };
+		06357AF6218C2289002C1CF7 /* XBZEmojiFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZEmojiFlowLayout.m; sourceTree = "<group>"; };
+		06357AF7218C2289002C1CF7 /* XBZEmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBZEmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		06357AF9218C2289002C1CF7 /* resource.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = resource.xcassets; sourceTree = "<group>"; };
+		06357B11218C2326002C1CF7 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		06357B12218C2326002C1CF7 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		06357B13218C2326002C1CF7 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		06357B14218C2326002C1CF7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		06357B15218C2326002C1CF7 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		06357B16218C2326002C1CF7 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		06357B17218C2326002C1CF7 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		06357B18218C2326002C1CF7 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		06357B19218C2326002C1CF7 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		06357B1A218C2326002C1CF7 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		06357B1B218C2326002C1CF7 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		06357B1C218C2326002C1CF7 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		06357B1D218C2326002C1CF7 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		06357B1E218C2326002C1CF7 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		06357B1F218C2326002C1CF7 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		06357B20218C2326002C1CF7 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		06357B21218C2326002C1CF7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		06357B22218C2326002C1CF7 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		06357B23218C2326002C1CF7 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		06357B24218C2326002C1CF7 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		06357B25218C2326002C1CF7 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		06357B26218C2326002C1CF7 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		06357B27218C2326002C1CF7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		06357B28218C2326002C1CF7 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		06357B29218C2326002C1CF7 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		06357B36218C23E2002C1CF7 /* PreFixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreFixHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06357AFC218C2289002C1CF7 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +208,17 @@
 		06357A83218C2206002C1CF7 /* XBZKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				06357B10218C2326002C1CF7 /* Masonry */,
+				06357AC3218C2289002C1CF7 /* XBZChatKeyBoard */,
+				06357B36218C23E2002C1CF7 /* PreFixHeader.h */,
 				06357A84218C2206002C1CF7 /* AppDelegate.h */,
 				06357A85218C2206002C1CF7 /* AppDelegate.m */,
-				06357A87218C2206002C1CF7 /* ViewController.h */,
-				06357A88218C2206002C1CF7 /* ViewController.m */,
+				06357ABA218C224E002C1CF7 /* RootViewController.h */,
+				06357AB7218C224E002C1CF7 /* RootViewController.m */,
+				06357AB9218C224E002C1CF7 /* TableViewController.h */,
+				06357AB8218C224E002C1CF7 /* TableViewController.m */,
+				06357AB6218C224D002C1CF7 /* ViewController.h */,
+				06357ABB218C224E002C1CF7 /* ViewController.m */,
 				06357A8A218C2206002C1CF7 /* Main.storyboard */,
 				06357A8D218C2208002C1CF7 /* Assets.xcassets */,
 				06357A8F218C2208002C1CF7 /* LaunchScreen.storyboard */,
@@ -130,6 +244,183 @@
 				06357AAA218C2208002C1CF7 /* Info.plist */,
 			);
 			path = XBZKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		06357AC3218C2289002C1CF7 /* XBZChatKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				06357AC4218C2289002C1CF7 /* Plist */,
+				06357AC7218C2289002C1CF7 /* Lame */,
+				06357ACA218C2289002C1CF7 /* XBZChatKeyBoardView.m */,
+				06357ACB218C2289002C1CF7 /* Catgoriy */,
+				06357AD8218C2289002C1CF7 /* Manager */,
+				06357ADB218C2289002C1CF7 /* XBZKeyBoardDefine.h */,
+				06357ADC218C2289002C1CF7 /* XBZChatKeyBoardView.h */,
+				06357ADD218C2289002C1CF7 /* Model */,
+				06357AE2218C2289002C1CF7 /* View */,
+				06357AF8218C2289002C1CF7 /* Resource */,
+			);
+			path = XBZChatKeyBoard;
+			sourceTree = "<group>";
+		};
+		06357AC4218C2289002C1CF7 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				06357AC5218C2289002C1CF7 /* emotion_icons.plist */,
+				06357AC6218C2289002C1CF7 /* chatEmojis.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		06357AC7218C2289002C1CF7 /* Lame */ = {
+			isa = PBXGroup;
+			children = (
+				06357AC8218C2289002C1CF7 /* libmp3lame.a */,
+				06357AC9218C2289002C1CF7 /* lame.h */,
+			);
+			path = Lame;
+			sourceTree = "<group>";
+		};
+		06357ACB218C2289002C1CF7 /* Catgoriy */ = {
+			isa = PBXGroup;
+			children = (
+				06357ACC218C2289002C1CF7 /* UIButton+XBZKeyBoard.m */,
+				06357ACD218C2289002C1CF7 /* UIView+XBZKeyBoard.h */,
+				06357ACE218C2289002C1CF7 /* UIColor+XBZKeyBoard.m */,
+				06357ACF218C2289002C1CF7 /* UIImage+XBZKeyBoard.m */,
+				06357AD0218C2289002C1CF7 /* UIScrollView+XBZKeyBoard.h */,
+				06357AD1218C2289002C1CF7 /* NSString+XBZKeyBoard.h */,
+				06357AD2218C2289002C1CF7 /* UIView+XBZKeyBoard.m */,
+				06357AD3218C2289002C1CF7 /* UIButton+XBZKeyBoard.h */,
+				06357AD4218C2289002C1CF7 /* UIImage+XBZKeyBoard.h */,
+				06357AD5218C2289002C1CF7 /* UIColor+XBZKeyBoard.h */,
+				06357AD6218C2289002C1CF7 /* NSString+XBZKeyBoard.m */,
+				06357AD7218C2289002C1CF7 /* UIScrollView+XBZKeyBoard.m */,
+			);
+			path = Catgoriy;
+			sourceTree = "<group>";
+		};
+		06357AD8218C2289002C1CF7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				06357AD9218C2289002C1CF7 /* XBZChatKeyBoardManager.m */,
+				06357ADA218C2289002C1CF7 /* XBZChatKeyBoardManager.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		06357ADD218C2289002C1CF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06357ADE218C2289002C1CF7 /* XBZChatMoreItem.h */,
+				06357ADF218C2289002C1CF7 /* XBZEmojiModel.m */,
+				06357AE0218C2289002C1CF7 /* XBZChatMoreItem.m */,
+				06357AE1218C2289002C1CF7 /* XBZEmojiModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06357AE2218C2289002C1CF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06357AE3218C2289002C1CF7 /* TextView */,
+				06357AE6218C2289002C1CF7 /* Record */,
+				06357AEB218C2289002C1CF7 /* Face */,
+				06357AEE218C2289002C1CF7 /* More */,
+				06357AF1218C2289002C1CF7 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06357AE3218C2289002C1CF7 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				06357AE4218C2289002C1CF7 /* XBZKeyBoardTextView.h */,
+				06357AE5218C2289002C1CF7 /* XBZKeyBoardTextView.m */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		06357AE6218C2289002C1CF7 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				06357AE7218C2289002C1CF7 /* XBZVoiceAnimationView.h */,
+				06357AE8218C2289002C1CF7 /* XBZAudioRecorder.h */,
+				06357AE9218C2289002C1CF7 /* XBZVoiceAnimationView.m */,
+				06357AEA218C2289002C1CF7 /* XBZAudioRecorder.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		06357AEB218C2289002C1CF7 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				06357AEC218C2289002C1CF7 /* XBZChatEmojiView.m */,
+				06357AED218C2289002C1CF7 /* XBZChatEmojiView.h */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		06357AEE218C2289002C1CF7 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				06357AEF218C2289002C1CF7 /* XBZChatMoreView.h */,
+				06357AF0218C2289002C1CF7 /* XBZChatMoreView.m */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		06357AF1218C2289002C1CF7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				06357AF2218C2289002C1CF7 /* XBZChatMoreCollectionViewCell.m */,
+				06357AF3218C2289002C1CF7 /* XBZEmojiFlowLayout.h */,
+				06357AF4218C2289002C1CF7 /* XBZEmojiCollectionViewCell.h */,
+				06357AF5218C2289002C1CF7 /* XBZChatMoreCollectionViewCell.h */,
+				06357AF6218C2289002C1CF7 /* XBZEmojiFlowLayout.m */,
+				06357AF7218C2289002C1CF7 /* XBZEmojiCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		06357AF8218C2289002C1CF7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				06357AF9218C2289002C1CF7 /* resource.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		06357B10218C2326002C1CF7 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				06357B11218C2326002C1CF7 /* MASCompositeConstraint.h */,
+				06357B12218C2326002C1CF7 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				06357B13218C2326002C1CF7 /* MASConstraint+Private.h */,
+				06357B14218C2326002C1CF7 /* MASLayoutConstraint.h */,
+				06357B15218C2326002C1CF7 /* NSArray+MASShorthandAdditions.h */,
+				06357B16218C2326002C1CF7 /* MASConstraintMaker.h */,
+				06357B17218C2326002C1CF7 /* View+MASAdditions.h */,
+				06357B18218C2326002C1CF7 /* NSArray+MASAdditions.h */,
+				06357B19218C2326002C1CF7 /* MASUtilities.h */,
+				06357B1A218C2326002C1CF7 /* MASViewAttribute.h */,
+				06357B1B218C2326002C1CF7 /* ViewController+MASAdditions.m */,
+				06357B1C218C2326002C1CF7 /* MASViewConstraint.h */,
+				06357B1D218C2326002C1CF7 /* MASConstraint.h */,
+				06357B1E218C2326002C1CF7 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				06357B1F218C2326002C1CF7 /* MASCompositeConstraint.m */,
+				06357B20218C2326002C1CF7 /* MASConstraintMaker.m */,
+				06357B21218C2326002C1CF7 /* MASLayoutConstraint.m */,
+				06357B22218C2326002C1CF7 /* NSArray+MASAdditions.m */,
+				06357B23218C2326002C1CF7 /* View+MASAdditions.m */,
+				06357B24218C2326002C1CF7 /* View+MASShorthandAdditions.h */,
+				06357B25218C2326002C1CF7 /* Masonry.h */,
+				06357B26218C2326002C1CF7 /* MASConstraint.m */,
+				06357B27218C2326002C1CF7 /* ViewController+MASAdditions.h */,
+				06357B28218C2326002C1CF7 /* MASViewConstraint.m */,
+				06357B29218C2326002C1CF7 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +529,9 @@
 				06357A91218C2208002C1CF7 /* LaunchScreen.storyboard in Resources */,
 				06357A8E218C2208002C1CF7 /* Assets.xcassets in Resources */,
 				06357A8C218C2206002C1CF7 /* Main.storyboard in Resources */,
+				06357B0F218C2289002C1CF7 /* resource.xcassets in Resources */,
+				06357AFA218C2289002C1CF7 /* emotion_icons.plist in Resources */,
+				06357AFB218C2289002C1CF7 /* chatEmojis.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +556,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06357A89218C2206002C1CF7 /* ViewController.m in Sources */,
 				06357A94218C2208002C1CF7 /* main.m in Sources */,
+				06357B03218C2289002C1CF7 /* UIScrollView+XBZKeyBoard.m in Sources */,
+				06357B06218C2289002C1CF7 /* XBZChatMoreItem.m in Sources */,
 				06357A86218C2206002C1CF7 /* AppDelegate.m in Sources */,
+				06357B2D218C2326002C1CF7 /* MASCompositeConstraint.m in Sources */,
+				06357B0E218C2289002C1CF7 /* XBZEmojiCollectionViewCell.m in Sources */,
+				06357AFE218C2289002C1CF7 /* UIButton+XBZKeyBoard.m in Sources */,
+				06357B30218C2326002C1CF7 /* NSArray+MASAdditions.m in Sources */,
+				06357B31218C2326002C1CF7 /* View+MASAdditions.m in Sources */,
+				06357B09218C2289002C1CF7 /* XBZAudioRecorder.m in Sources */,
+				06357B07218C2289002C1CF7 /* XBZKeyBoardTextView.m in Sources */,
+				06357ABE218C224F002C1CF7 /* RootViewController.m in Sources */,
+				06357B02218C2289002C1CF7 /* NSString+XBZKeyBoard.m in Sources */,
+				06357B01218C2289002C1CF7 /* UIView+XBZKeyBoard.m in Sources */,
+				06357B2C218C2326002C1CF7 /* ViewController+MASAdditions.m in Sources */,
+				06357B33218C2326002C1CF7 /* MASViewConstraint.m in Sources */,
+				06357B0A218C2289002C1CF7 /* XBZChatEmojiView.m in Sources */,
+				06357B2E218C2326002C1CF7 /* MASConstraintMaker.m in Sources */,
+				06357B0D218C2289002C1CF7 /* XBZEmojiFlowLayout.m in Sources */,
+				06357B00218C2289002C1CF7 /* UIImage+XBZKeyBoard.m in Sources */,
+				06357B32218C2326002C1CF7 /* MASConstraint.m in Sources */,
+				06357B04218C2289002C1CF7 /* XBZChatKeyBoardManager.m in Sources */,
+				06357B0C218C2289002C1CF7 /* XBZChatMoreCollectionViewCell.m in Sources */,
+				06357B34218C2326002C1CF7 /* MASViewAttribute.m in Sources */,
+				06357B05218C2289002C1CF7 /* XBZEmojiModel.m in Sources */,
+				06357B0B218C2289002C1CF7 /* XBZChatMoreView.m in Sources */,
+				06357B08218C2289002C1CF7 /* XBZVoiceAnimationView.m in Sources */,
+				06357ABF218C224F002C1CF7 /* TableViewController.m in Sources */,
+				06357AFF218C2289002C1CF7 /* UIColor+XBZKeyBoard.m in Sources */,
+				06357B2F218C2326002C1CF7 /* MASLayoutConstraint.m in Sources */,
+				06357AFD218C2289002C1CF7 /* XBZChatKeyBoardView.m in Sources */,
+				06357AC0218C224F002C1CF7 /* ViewController.m in Sources */,
+				06357B2B218C2326002C1CF7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +761,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/XBZKeyBoard/PreFixHeader.h";
 				INFOPLIST_FILE = XBZKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XBZKeyBoard/XBZChatKeyBoard/Lame",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,10 +785,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UW9HMMBUP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/XBZKeyBoard/PreFixHeader.h";
 				INFOPLIST_FILE = XBZKeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XBZKeyBoard/XBZChatKeyBoard/Lame",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigking.XBZKeyBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
