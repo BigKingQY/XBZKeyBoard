@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)startRecord;
 
 //结束录音，返回录音文件完整路径
-- (NSString *)stopRecord;
+- (NSDictionary *)stopRecord;
 
 //是否正在录音中
 - (BOOL)isRecording;

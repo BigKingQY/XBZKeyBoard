@@ -29,7 +29,7 @@ typedef NS_ENUM(NSInteger, XBZKeyBoardState) {
 - (void)chatKeyBoardViewSendPhotoMessage:(NSString *)photo;
 
 //发送录音，这里是完整的音频路径
-- (void)chatKeyBoardViewSendVoiceMessage:(NSString *)voicePath;
+- (void)chatKeyBoardViewSendVoiceMessage:(NSDictionary *)voiceInfo;
 
 //点击更多
 - (void)chatKeyBoardViewSelectMoreImteTitle:(NSString *)title index:(NSInteger)index;

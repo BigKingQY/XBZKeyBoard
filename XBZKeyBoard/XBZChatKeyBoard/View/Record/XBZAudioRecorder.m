@@ -21,6 +21,7 @@ NSString *const kXBZAudioRecorderNotification = @"kXBZAudioRecorderNotification"
 
 @property (nonatomic, copy) NSString *filePath;
 @property (nonatomic, copy) NSString *tempFilePath;
+@property (nonatomic, assign) CGFloat duration;
 
 @property (nonatomic, strong) NSTimer *timer;
 
@@ -78,7 +79,7 @@ static XBZAudioRecorder *_audioRecorder;
     }
 }
 
-- (NSString *)stopRecord {
+- (NSDictionary *)stopRecord {
     
     [self.timer invalidate];
     self.timer = nil;
@@ -87,7 +88,8 @@ static XBZAudioRecorder *_audioRecorder;
     [self audioPCMtoMP3WithPath:self.tempFilePath];
     
     
-    return [self.tempFilePath stringByAppendingString:@".mp3"];
+    return @{@"path":[self.tempFilePath stringByAppendingString:@".mp3"],
+             @"duration":@(self.duration)};
 }
 
 - (BOOL)isRecording {
@@ -218,6 +220,11 @@ static XBZAudioRecorder *_audioRecorder;
         NSLog(@"%@" ,[exception description]);
     } @finally {
 //        NSLog(@"recordmp3Path  = %@", recordmp3Path);
+        AVURLAsset* audioAsset =[AVURLAsset URLAssetWithURL:[NSURL fileURLWithPath:recordmp3Path] options:nil];
+        CMTime audioDuration = audioAsset.duration;
+        float audioDurationSeconds = CMTimeGetSeconds(audioDuration);
+        self.duration = audioDurationSeconds;
+//        XBZLog(@"audioDurationSeconds-->>%f", audioDurationSeconds);
         //删除之前的caf
         [NSFileManager.defaultManager removeItemAtPath:recordcafPath error:nil];
         

@@ -42,9 +42,6 @@
     
     self.keyBoardView = [[XBZChatKeyBoardView alloc] initWithNavigationBarTranslucent:NO];
     self.keyBoardView.delegate = self;
-    self.keyBoardView.showVoice = NO;
-    self.keyBoardView.showFace = NO;
-    self.keyBoardView.showMore = NO;
     [self.view addSubview:self.keyBoardView];
 }
 
@@ -61,10 +58,10 @@
     self.imageView.image = [UIImage imageNamed:photo];
 }
 
-- (void)chatKeyBoardViewSendVoiceMessage:(NSString *)voicePath {
-    NSLog(@"voiceMessage:%@", voicePath);
+- (void)chatKeyBoardViewSendVoiceMessage:(NSDictionary *)voiceInfo {
+    NSLog(@"voiceMessage:%@", voiceInfo);
     self.button.enabled = YES;
-    self.currentVoicePath = voicePath;
+    self.currentVoicePath = voiceInfo[@"path"];
 }
 
 - (void)chatKeyBoardViewSelectMoreImteTitle:(NSString *)title index:(NSInteger)index{

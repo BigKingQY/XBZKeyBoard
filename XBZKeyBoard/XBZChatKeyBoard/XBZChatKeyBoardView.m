@@ -323,10 +323,10 @@
         self.voiceView.state = XBZVoiceFinished;
         [self.voiceView removeFromSuperview];
     }
-    NSString *path = [XBZAudioRecorder.shared stopRecord];
+    NSDictionary *recordInfo = [XBZAudioRecorder.shared stopRecord];
     
     if ([self.delegate respondsToSelector:@selector(chatKeyBoardViewSendVoiceMessage:)]) {
-        [self.delegate chatKeyBoardViewSendVoiceMessage:path];
+        [self.delegate chatKeyBoardViewSendVoiceMessage:recordInfo];
     }
 }
 
