@@ -1,6 +1,6 @@
 //
 //  UIColor+XBZ.h
-//  XBZKeyBoard_Demo
+//  XBZKeyBoard
 //
 //  Created by BigKing on 2018/10/30.
 //  Copyright © 2018 BigKing. All rights reserved.

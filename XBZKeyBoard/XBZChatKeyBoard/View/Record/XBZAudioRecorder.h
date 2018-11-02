@@ -1,6 +1,6 @@
 //
 //  XBZAudioRecorder.h
-//  XBZKeyBoard_Demo
+//  XBZKeyBoard
 //
 //  Created by BigKing on 2018/10/29.
 //  Copyright © 2018年 BigKing. All rights reserved.

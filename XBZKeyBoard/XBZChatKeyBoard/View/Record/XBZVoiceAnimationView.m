@@ -1,6 +1,6 @@
 //
 //  XBZVoiceAnimationView.m
-//  XBZKeyBoard_Demo
+//  XBZKeyBoard
 //
 //  Created by BigKing on 2018/10/26.
 //  Copyright © 2018年 BigKing. All rights reserved.

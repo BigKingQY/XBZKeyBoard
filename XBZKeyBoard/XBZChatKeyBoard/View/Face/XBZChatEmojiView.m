@@ -1,6 +1,6 @@
 //
 //  XBZChatEmojiView.m
-//  XBZKeyBoard_Demo
+//  XBZKeyBoard
 //
 //  Created by BigKing on 2018/10/19.
 //  Copyright © 2018年 BigKing. All rights reserved.

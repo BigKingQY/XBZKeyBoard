@@ -1,6 +1,6 @@
 //
 //  XBZChatKeyBoardView.h
-//  XBZKeyBoard_Demo
+//  XBZKeyBoard
 //
 //  Created by BigKing on 2018/10/19.
 //  Copyright © 2018年 BigKing. All rights reserved.
@@ -56,6 +56,8 @@ typedef NS_ENUM(NSInteger, XBZKeyBoardState) {
 - (instancetype)init NS_UNAVAILABLE;
 //就是不准用~
 + (instancetype)new NS_UNAVAILABLE;
+
+- (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 
 /**
  初始化方法

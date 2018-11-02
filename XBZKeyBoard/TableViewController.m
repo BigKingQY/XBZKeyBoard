@@ -1,6 +1,6 @@
 //
 //  TableViewController.m
-//  XBZKeyBoard_Demo
+//  XBZKeyBoard
 //
 //  Created by BigKing on 2018/11/1.
 //  Copyright © 2018 BigKing. All rights reserved.
@@ -147,7 +147,6 @@
     if (!_keyBoardView) {
         _keyBoardView = [[XBZChatKeyBoardView alloc] initWithNavigationBarTranslucent:NO];
         _keyBoardView.delegate = self;
-        _keyBoardView.tableView = self.tableView;
     }
     return _keyBoardView;
 }
