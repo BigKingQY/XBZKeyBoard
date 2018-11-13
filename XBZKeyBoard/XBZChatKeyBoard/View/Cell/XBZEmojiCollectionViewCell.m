@@ -51,6 +51,7 @@ NSString *const kXBZEmojiCollectionViewCellId = @"kXBZEmojiCollectionViewCellId"
     _faceModel = faceModel;
 
     [self.button setImage:[UIImage imageNamed:faceModel.image] forState:UIControlStateNormal];
+    [self.button setTitle:@"" forState:UIControlStateNormal];
 }
 
 @end
